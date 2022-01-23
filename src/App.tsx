@@ -4,15 +4,14 @@ import Gameframe from "./components/Gameframe";
 
 function App() {
   return (
-    <div className="flex justify-center  w-screen h-screen bg-slate-300 p-4">
-      <div className="flex flex-col w-96">
-        <header className="basis-1/8">
+    <div className="flex justify-center w-screen h-screen bg-stone-400 py-12">
+      <div className="flex drop-shadow-2xl flex-col w-96">
+        <header className="basis-1/12">
           <Nav />
         </header>
-        <main className="basis-3/4">
+        <main className="basis-11/12">
           <Gameframe />
         </main>
-        <footer className="basis-1/8 h-f">copyright.</footer>
       </div>
     </div>
   );
